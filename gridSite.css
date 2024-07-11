@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+#contnav{
+    display: grid;
+    width: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    margin: auto;
+}
